@@ -3,12 +3,12 @@
   <div class="container-fluid">
 
     <div class="d-flex">
-      <div class="conteiner-fluid">
+
         <a class="navbar-brand" href="#">
           <img src="../assets/logo-coppel.png" class = "logo" alt="Logo Coppel" />
         </a>
-    </div>
-      <div class="ms-auto p-2">
+
+      <div class="ms-auto m-0">
       <form class="d-flex">
         <input class="form-control ms-2" type="search" placeholder="Busca tus productos" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">
@@ -56,7 +56,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .logo{
-    width: 12%;
+    width: 20%;
     height: auto;
 }
 

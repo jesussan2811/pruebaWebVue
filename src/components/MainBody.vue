@@ -23,8 +23,10 @@
         </div>
       </div>
     </div>
-    <h4>Descubre nuestros servicios</h4>
-    <p>Coppel Salud es un programa integral diseñado</p>    
+    <div class="container-fluid">
+      <h4>Descubre nuestros servicios</h4>
+      <p>Coppel Salud es un programa integral diseñado para tu bienestar. ponemos a tu alcance medicamentos y aparatos medicos de dermatologia, nutricion y mucho mas, para ayudarte a cuidar lo mas importante a tu salud y la de tu familia</p>
+    </div>
   </div>
 </template>
 
@@ -36,5 +38,8 @@ export default {
 
 
 <style scoped>
-
+.conteiner-fluid{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 </style>
